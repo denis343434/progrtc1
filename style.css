@@ -934,6 +934,10 @@ body{
 	line-height: 30px;
 	padding-bottom: 27px;
 }
+.carta a{
+	text-decoration: none;
+	color: #000;
+}
 .calums1 button{
 	color: #fff;
 	border: 0px;
@@ -944,6 +948,14 @@ body{
 	width: 100%;
 	padding-top: 22px;
 	padding-bottom: 22px;
+}
+.wight a{
+	color: #fff;
+	text-decoration: none;
+}
+.button1 a{
+	color: #fff;
+	text-decoration: none;
 }
 .calums1{
 	padding: 22px;
@@ -958,6 +970,9 @@ body{
 	box-shadow: 0px 10px 55px 0px rgba(241, 102, 24, 0.15);
 	border-radius: 15px;
 	height: 100%;
+}
+.button-left a{
+	padding-top: 7px;
 }
 .calums2-text p{
 	font-weight: 700;
@@ -1090,7 +1105,7 @@ body{
 		top: 100px;
 	}
 	.info-button button , .info-button1 button{
-		padding-left: 100px;
+		padding-left: 10px;
 	}
 }
 @media screen and (max-width:1282px){
@@ -1571,6 +1586,10 @@ body{
 		display: block;
 		text-align-last: left;
 	}
+	.info{
+		padding-left: 5px;	
+		padding-right: 0px;	
+	}
 	.footer-text{
 		padding-bottom: 90px;
 	}
@@ -1578,12 +1597,19 @@ body{
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.d-f-blog1 h1{
+		font-size: 42px;	
+	}
 	.carta-nomber{
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.info-text-nomber2{
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
 	.info-img img{
-		width: 350px;
+		width: 310px;
 	}
 	.img-marcet{
 		grid-template-columns: none;
@@ -1629,6 +1655,12 @@ body{
 	.sign-up{
 		padding: 12px 4px 12px 4px;
 	}
+	.text-calums-1{
+		padding-left: 3px;	
+	}
+	.active-info{
+		left: 75%;	
+	}
 }
 @media screen and (max-width:414px){
 	.sign-up{
@@ -1644,7 +1676,7 @@ body{
 		width: 380px;
 	}
 	.info{
-		padding-left: 14px;
+		padding-left: 4px;
 	}
 }
 @media screen and (max-width:375px){
