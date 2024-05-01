@@ -10,6 +10,7 @@
 }
 body{
 	font-family: "Poppins";
+	margin: 0;
 }
 .button-login{
 	display: flex;
@@ -1446,8 +1447,17 @@ body{
 	.info-img{
 		padding-left: 0;
 	}
+	.line-info{
+		margin-left: 0;
+	}
 	.logo{
 		position: fixed;
+	}
+	.wight2{
+		height: 1000px;
+	}
+	.wight1{
+		height: 700px;
 	}
 	.bc{
 		padding-right: 5px;
