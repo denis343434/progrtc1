@@ -4,3 +4,6 @@ $('.active-menu').click(function(){
 $('.close-menu').click(function(){
 	$('.menu').toggleClass('d-n');
 });
+$('.active-carta-blog').click(function(){
+	$('.carta-lbog').toggleClass('d-n');
+});

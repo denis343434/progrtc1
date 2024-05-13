@@ -673,6 +673,21 @@ body{
 	height: 740px;
 	box-shadow: 0px 10px 55px 0px rgba(241, 102, 24, 0.15);
 }
+.carta-lbog{
+	position: fixed;
+	top: 20px;	
+	right: 20px;	
+}
+.active-carta-blog img{
+	width: 70px;	
+	height: 70px;	
+}
+.active-carta-blog{
+	position: fixed;
+	right: 20px;	
+	bottom: 30px;
+	z-index: 10;	
+}
 .bc-nomber button{
 	width: 100%;
 	padding-left: 130px;
@@ -709,7 +724,7 @@ textarea {
 }
 .df{
 	display: flex;
-	grid-column-gap: 58px;
+	grid-column-gap: 38px;
 }
 .info-text h2{
 	font-size: 16px;
@@ -770,6 +785,12 @@ body{
 	width: 100%;
 	padding-top: 22px;
 	padding-bottom: 22px;
+}
+.carta {
+	grid-gap: 20px;	
+}
+.df{
+
 }
 .wight a{
 	color: #fff;
@@ -843,6 +864,10 @@ body{
 	position: fixed;
 	display: none;
 }
+a{
+	text-decoration: none;	
+	color: #fff;
+}
 .text-botton-img h1{
 	padding-bottom: 20px;
 	font-weight: 700;
@@ -872,725 +897,352 @@ body{
 }
 .text-blog{
 	display: flex;
+	justify-content: center;	
+}
+.text-calums-1{
+	display: grid;	
+	justify-content: center;	
 }
 @media screen and (max-width:1502px){
-	.svitch{
-		margin-left: 100px;
-	}
-	textarea{
-		width: 90%;
-	}
-	.info-text input{
-		width: 90%;
-	}
-	.bc-nomber{
-		grid-column-gap: 30px;
-	}
-	.carta-lbog{
-		margin-left: 190px;
-	}
-}
-@media screen and (max-width:1332px){
-	.svitch{
-		margin-left: 50px;
-	}
-	.calums2 button{
-		margin-left: 490px;
-	}
-	.jc{
-		grid-template-columns: repeat(2,3fr);
-	}
-	.pb{
-		padding-right: 0px;
-	}
-	.carta-lbog{
-		margin-left: 260px;
-	}
-	.line-homber {
-		width: 300px;
-	}
-	.button-logo{
-		padding-left: 0;
-	}
-	.logo{
-		justify-content: space-between;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.efects{
-		left: 600px;
-	}
-	.nav{
-		top: 70px;
-	}
-	.menu-icon:not(:checked) + label{
-		top: 100px;
-	}
-	.info-button button , .info-button1 button{
-		padding-left: 10px;
-	}
-}
-@media screen and (max-width:1282px){
-	.info{
-		grid-column-gap: 0;
-		justify-content: space-between;
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-	.carta-lbog{
-		margin-left: 30px;
-	}
-	.calums2 button{
-		margin-left: 360px;
-	}
-	.text-calums-1{
-		padding-left: 170px;
-	}
-	.text-info-button{
-		grid-column-gap: 0;
-		justify-content: space-between;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.info-button1 button{
-		padding: 16px 25px 16px 25px;
-		width: 140px;
-	}
-	.text-blog{
-		display: block;
-	}
-	.carta-lbog{
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top: 70px;
-		display: flex;
-		height: 140px;
-	}
-	textarea{
-		width: 90%;
-	}
-	.bc-nomber{
-		display: block;
-	}
-	.carta , .carta1 , .df{
-		grid-column-gap: 30px;
-	}
-	.img-marcet{
-		grid-column-gap: 50px;
-	}
-	.efects{
-		left: 400px;
-	}
-	.df{
-		
-		display: grid;
-		grid-gap: 30px;
-	}
-	.dn{
-		display: none;
-	}
 	.img-careers{
-		padding-left: 20px;
-		padding-right: 20px;
+		margin-left: 0;	
+		margin-right: 0;	
 	}
-}
-@media screen and (max-width:1208px){
-	.d-f-media{
-		display: grid;
-		grid-gap: 30px;
-	}
-	.calums2 button{
-		margin-left: 270px;
-	}
-}
-@media screen and (max-width:1230px){
-	.text-info-button{
-		display: grid;
-		justify-content: center;
-		grid-gap: 50px;
-	}
-	.text-info-button-text{
-		text-align: center;
-	}
-	.text-info-button-text button{
-		margin-left: 240px;
-	}
-}
-@media screen and (max-width:1164px){
-	.info-img img{
-		width: 390px;
-	}
-	.efects{
-		width: 90px;
-		height: 90px;
-		padding-top: 340px;
-		left: 540px;
-	}
-}
-@media screen and (max-width:1126px){
-	.carta1{
-		display: grid;
-		grid-gap: 40px;
-	}
-	.info-carta-bay{
-		padding: 72px 19px 72px 19px;
-	}
-	.text-calums-1{
-		padding-left: 90px;
-	}
-	.carta-lbog{
-		grid-template-columns: repeat(2,3fr);
-		display: grid;
-		width: 400px;
-		height: 90%;
-		margin-left: 90px;
-	}
-}
-@media screen and (max-width:1044px){
-	.img-marcet{
-		grid-column-gap: 20px;
-	}
-	.efects{
-		left: 150px;
-		padding-top: 440px;
-	}
-	.calums2 button{
-		margin-left: 200px;
-	}
-	.info{
-		display: grid;
-		grid-gap: 50px;
-	}
-	.info-img{
-		padding-left: 360px;
-	}
-	.info-img img{
-		width: 500px;
-	}
-	.info-text-nomber2{
-		display: block;
-	}
-	.info-text-nomber2-img{
-		padding-top: 40px;
-		padding-left: 290px;
-	}
-
-}
-@media screen and (max-width:938px){
-	.img-marcet{
-		grid-template-columns: repeat(2,2fr);
-		display: grid;
-		grid-gap: 40px;
-		grid-column-gap: 40px;
-		padding-left: 20px;
-	}
-	.active-menu{
-		padding-left: 0px;
-		padding-right: 30px;
-	}
-	.calums2 button{
-		margin-left: 80px;
-	}
-	.logo{
-		position: fixed;
-		top: 0;
-	}
-	.menu{
-		position: fixed;
-	}
-	.line-homber h1{
-		padding-right: 0;
-	}
-	.text-calums-1{
-		padding-left: 20px;
-	}
-	.info bc-nomber{
-		display: none;
-	}
-	.nav{
-		top: 10px;
+	.info {
+		grid-gap: 20px;	
 	}
 	.bc{
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 20px;	
+		padding-right: 20px;	
 	}
-	.menu-icon:not(:checked) + label{
-		top: 40px;
+	.button-logo , .active-menu{
+		padding-left: 0;	
+	}
+	.logo{
+		display: flex;	
+		justify-content: space-between;	
+		padding-left: 20px;	
+		padding-right: 20px;	
+	}
+	.footer-text , .gmail{
+		margin-left: 0;	
+		margin-right: 0;	
 	}
 	.svitch{
-		margin-left: 0;
+		margin-left: 0;	
 	}
-	.logo{
-		background-color: #fff;
-		padding-bottom: 20px;
-		width: 100%;
+	.line{
+		display: flex;	
+		justify-content: space-between;	
 	}
-	.button-logo{
-		padding-left: 0px;
-		padding-right: 90px;
+	.gmail{
+		padding-left: 40px;	
+		padding-right: 40px;	
 	}
-	.info{
-		padding-top: 90px;
-	}
-	.line-homber {
-		width: 200px;
+	.bc{
+		padding-left: 40px;	
+		padding-right: 40px;	
 	}
 }
-@media screen and (max-width:907px){
-	.info-img{
-		padding-left: 230px;
-	}
-	.efects{
-		left: 30px;
-	}
-	.info-button , .info-text{
-		margin-top: 90px;
-	}
-	.d-f-blog{
-		display: block;
-	}
-	.certa-top-text{
-		display: block;
-	}
-	.calums1{
-		height: 770px;
-		margin-bottom: 30px;
-	}
-	.calums2{
-		height: 790px;
-	}
-}
-@media screen and (max-width:886px){
-	.info-img{
-		padding-left: 240px;
-	}
-	.info-text-nomber2-img{
-		padding-left: 180px;
+@media screen and (max-width:1334px){
+	.img-careers img{
+		padding: 0;	
 	}
 	.jc{
-		grid-gap: 20px;
+		display: grid;	
+		grid-template-columns: repeat(2,6fr);
 	}
-	.active-info{
-		display: block;
-		z-index: 8;
-		top: 80%;
-		box-shadow: 0px 10px 55px 0px rgba(241, 102, 24, 0.15);
-		background-color: #fff;
-		padding: 20px;
-		border-radius: 190px;
-		left: 80%;
+	.info {
+		display: grid;	
 	}
-	.active-info img{
-		width: 60px;
+	.img-marcet{
+		grid-gap: 30px;	
 	}
-	.logo{
-		position: fixed;
-		top: 0;
+	.carta , .d-f-media{
+		grid-gap: 20px;	
 	}
 	.info{
-		margin: 0;
-	}
-	.carta-lbog1{
-		position: fixed;
-		top: 50px;
-		left: 60%;
-		z-index: 10;
-		display: none;
+		grid-gap: 90px;	
 	}
 }
-@media screen and (max-width:848px){
+@media screen and (max-width:1284px){
+	.text-info-button{
+		grid-gap: 30px;	
+	}
+	.df{
+		grid-gap: 20px;	
+	}
+}
+@media screen and (max-width:1254px){
+	.text-info-button{
+		display: grid;	
+	}
+	.info-carta-bay{
+		margin-left: 20px;	
+		margin-right: 20px;	
+	}
+	.d-f-media-1{
+		grid-gap: 20px;	
+	}
+	.carta1{
+		display: grid;
+		grid-gap: 20px;	
+	}
+	.d-f-media{
+		display: grid;	
+	}
+	.info{
+		grid-gap: 30px;	
+	}
+	.df{
+		display: grid;	
+	}
+}
+@media screen and (max-width:1194px){
+	.info{
+		display: grid;	
+	}
+}
+@media screen and (max-width:1066px){
+	.line-homber h1{
+		padding-right: 0;	
+	}
+	.line{
+		grid-gap: 90px;	
+	}
+	.calums2 button{
+		margin-left: 0;	
+		text-align: right;	
+	}
+	.info-text p{
+		padding-top: 30px;	
+	}
+	.img-marcet{
+		display: grid;
+		grid-template-columns: repeat(2,2fr);
+		grid-gap: 30px;	
+	}
+	.info-carta-bay{
+		padding-left: 20px;	
+		padding-right: 20px;	
+	}
+	.info-text-nomber2{
+		padding-left: 20px;	
+		padding-right: 20px;
+		display: grid;	
+	}
+	.info-text-nomber2-img img{
+		width: 100%;	
+	}
+}
+@media screen and (max-width:888px){
+	.d-f-blog{
+		display: grid;
+		text-align: center;	
+	}
+	.text-blog{
+		text-align: center;	
+	}
+	.d-f-blog img{
+		padding-bottom: 40px;	
+		padding-top: 50px;
+	}
+}
+@media screen and (max-width:832px){
 	.carta{
 		display: grid;
-		grid-gap: 40px;
-	}
-	.carta-nomber{
-		padding-left: 50px;
-		padding-right: 50px;
 	}
 	.jc{
 		grid-template-columns: repeat(1,6fr);
 	}
 }
-@media screen and (max-width:808px){
+@media screen and (max-width:772px){
 	.button-left{
-		display: none;
+		display: none;	
 	}
-	.active-hamburger-menu{
-		padding-left: 40px;
-		display: block;
+	.info-text input , .info-text textarea{
+		width: 500px;	
 	}
-}
-@media screen and (max-width:774px){
+	.info-button1{
+		width: 350px;
+	}
+	.certa-top-text{
+		display: grid;
+		grid-gap: 90px;	
+	}
+	.dn{
+		display: none;	
+	}
 	.d-f-media-1{
 		display: grid;
-		grid-gap: 40px;
-	}
-	.efects{
-		left: 0;
 	}
 	.carta-nomber-title1{
-		padding-left: 95px;
-		padding-right: 95px;
+		width: 500px;	
 	}
-	.info-img{
-		padding-left: 180px;
+	.text-info-button-img-line{
+		padding-left: 9px;	
 	}
-	.text-pricing h1{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.info-text-nomber2-img{
-		padding-left: 10px;
-	}
-	.calums2{
-		height: 880px;
+	.info-carta-bay p{
+		font-size: 30px;	
 	}
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:678px){
 	.text-info-button-img-line{
-		padding-left: 10px;
+		display: none;	
+	}
+	.efects-img{
+		padding-top: 40px;			
+	}
+}
+@media screen and (max-width:636px){
+	.line{
+		display: grid;	
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 20px;	
+	}
+	.efects-img img{
+		width: 100%;	
+	}
+	.line-homber {
+		padding-bottom: 0;	
 	}
 	.footer-text{
-		margin: 0px 50px 0px 50px;
+		padding-bottom: 40px;	
 	}
-	.info-img img{
-		padding-left: 0px;
+	.wight{
+		padding-left: 20px;	
+		padding-right: 20px;	
 	}
-	.info-img{
-		padding-left: 120px;
+	.text-botton-img{
+		padding-left: 20px;	
+		padding-right: 20px;	
+	}
+	.calums1 img{
+		width: 100%;	
+	}
+	.info-text{
+		padding-left: 20px;	
+	}
+	.info-text input , .info-text textarea{
+		width: 400px;	
 	}
 }
-@media screen and (max-width:667px){
+@media screen and (max-width:560px){
+	.carta-nomber-title1{
+		width: 400px;	
+	}
+	.info  p{
+		font-size: 20px;
+		line-height: 20px;	
+	}
+	.info-text h1{
+		padding-bottom: 10px;	
+	}
+	.img-marcet{
+		grid-template-columns: repeat(1,4fr);
+		display: grid;	
+		justify-content: center;
+		padding-left: 20px;	
+	}
+	.button1 button{
+		padding-left: 20px;	
+	}
 	.info-img{
-		padding-left: 30px;
+		width: 90%;
+		display: grid;	
+		padding-left: 20px;	
 	}
-	.carta-lbog{
-		margin-left: 50px;
+	.info-img img{
+		width: 100%;	
 	}
-	.active-info img{
-		width: 40px;
-	}
-	.text-blog1{
-		justify-content: flex-start;
+	.text-blog h2{
+		width: 100%;	
 	}
 }
 @media screen and (max-width:430px){
-	.info-img{
-		padding-left: 0;
+	.text-botton-img h2{
+		font-size: 14px;
+		line-height: 20px;	
 	}
-	.line-info{
-		margin-left: 0;
+	.info-text-nomber2-text p{
+		font-size: 30px;
+		line-height: 30px;	
 	}
-	.logo{
-		position: fixed;
-	}
-	.wight2{
-		height: 1000px;
-	}
-	.wight1{
-		height: 700px;
-	}
-	.line-info{
-		
-	}
-	.bc{
-		padding-right: 5px;
-		padding-left: 5px;
-		quotes: 100%;
-	}
-	.img-careers{
-		margin-left: 20px;
-		padding-right: 20px;
-		margin-right: 20px;
-		padding-left: 20px;
-	}
-	.calums2{
-		height: 1000px;
-	}
-	.carta-lbog{
-		margin-left: 50px;
-		grid-template-columns: repeat(1,6fr);
-		width: 250px;
-	}
-	.button1 button{
-		padding-left: 20px;
-	}
-	.d-f-blog h2{
-		width: 100%;
-	}
-	.text-info-button-img{
-		display: block;
-		padding-left: 20px;
-	}
-	.efects{
-		padding-top: 0px;
-	}
-	.info{
-		margin-right: 0;
-		padding-left: 10px;
-	}
-	.info-carta-bay{
-		margin: 113px 10px 113px 10px;
-	}
-	.line{
-		display: block;
-		text-align-last: left;
-	}
-	.info-text-nomber2{
-		padding-left: 20px;
-	}
-	.footer-text{
-		padding-bottom: 90px;
-	}
-	.info-text-nomber2-img img{
-		width: 370px;
-	}
-	.info{
-		margin-left: 0;
-	}
-	.carta-nomber-title1 {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.carta-nomber{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.info-img img{
-		width: 390px;
-	}
-	.img-marcet{
-		grid-template-columns: none;
-		padding-left: 90px;
-	}
-	.button-login{
-		grid-column-gap: 20px;
-	}
-	.button-logo{
-		padding-right: 40px;
+	.carta-nomber-title1{
+		width: 330px;	
 	}
 	.text-info-button-text h1{
-		font-size: 15px;
+		font-size: 14px;	
 	}
-	.text-info-button-text button{
-		margin-left: 90px;
+	.info-text input , .info-text textarea{
+		width: 300px;	
 	}
-	.img3{
-		padding-top: 30px;
+	.text-info-button-text p{
+		font-size: 30px;	
 	}
-	.info-text p{
-		font-size: 50px;
-		line-height: 55px;
-		padding-top: 10px;
-	}
-	.info-text h1{
-		font-size: 21px;
+	.info-button{
+		grid-gap: 10px;	
 	}
 	.try-for-free{
-		padding: 15px 10px 15px 10px;
+		padding: 5px 10px;	
 	}
-	.
+	.info-text p{
+		font-size: 40px;
+		line-height: 40px;	
+	}
 }
 @media screen and (max-width:390px){
-	.info-img{
-		padding-left: 0;
+	.button-login{
+		padding-left: 0;	
 	}
-	.efects-img img{
-		display: none;
+	.bc{
+		padding-left: 6px;
+		padding-right: 6px;	
 	}
-	.carta-lbog{
-		margin-left: 30px;
+	.info-text input , .info-text textarea{
+		width: 280px;	
 	}
-	.text-info-button-img{
-		display: block;
-		padding-left: 20px;
+	.info-button1 button{
+		padding-left: 100px;	
 	}
-	.calums1 img{
-		width: 100%;
-	}
-	.calums1{
-		height: 600px;
-	}
-	.calums2{
-		height: 1380px;
-	}
-	.efects{
-		display: none;
-	}
-	.info-text-nomber2-img{
-		padding-left: 0;
-	}
-	.info-text-nomber2-img img{
-		width: 350px;
-	}
-	.info-carta-bay{
-		margin: 113px 10px 113px 10px;
-	}
-	.line{
-		display: block;
-		text-align-last: left;
-	}
-	.info{
-		padding-left: 5px;	
-		padding-right: 0px;	
-	}
-	.footer-text{
-		padding-bottom: 90px;
-	}
-	.carta-nomber-title1 {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.d-f-blog1 h1{
-		font-size: 42px;	
+	.info-button1{
+		width: 300px;	
 	}
 	.carta-nomber{
-		padding-left: 0;
-		padding-right: 0;
+		width: 360px;	
 	}
-	.info-text-nomber2{
-		padding-left: 10px;
-		padding-right: 10px;	
-	}
-	.info-img img{
-		width: 310px;
-	}
-	.img-marcet{
-		grid-template-columns: none;
-		padding-left: 90px;
+	.line-info{
+		margin-left: 10px;	
 	}
 	.button-login{
-		grid-column-gap: 20px;
+		grid-gap: 10px;	
 	}
-	.info-button , .info-button1{
-		grid-column-gap: 0;
-	}
-	.button-logo{
-		padding-right: 40px;
-	}
-	.text-info-button-text h1{
-		font-size: 22px;
-	}
-	.text-info-button-text button{
-		margin-left: 70px;
-	}
-	.img3{
-		padding-top: 30px;
-	}
-	.info-text p{
-		font-size: 50px;
-		line-height: 55px;
-		padding-top: 20px;
-	}
-	.info-marcet p{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.info-text h1{
-		font-size: 30px;
-	}
-	.try-for-free{
-		padding: 15px 10px 15px 10px;
-		font-size: 16px;
-	}
-	.carta-nomber{
-		width: 390px;
-	}
-	.sign-up{
-		padding: 12px 4px 12px 4px;
-	}
-	.text-calums-1{
-		padding-left: 3px;	
-	}
-	.active-info{
-		left: 75%;	
-	}
-}
-@media screen and (max-width:414px){
-	.sign-up{
-		padding: 12px 4px 12px 4px;
-	}
-	.text-info-button-text h1{
-		font-size: 23px;
-	}
-	.info-text-nomber2-img img{
-		width: 360px;
-	}
-	.info-img img{
-		width: 380px;
-	}
-	.info{
-		padding-left: 4px;
+	.svitch button{
+		width: 200px;
 	}
 }
 @media screen and (max-width:375px){
-	.info-carta-bay p{
-		padding-top: 0;
-		font-size: 33px;
-	}
-	.info-button button{
-		padding-left: 10px;
-	}
-	.info-img img{
-		width: 340px;
+	.info-text input , .info-text textarea{
+		width: 250px;	
 	}
 	.carta-lbog{
-		margin-left: 25px;
-	}
-	.text-calums-1{
-		padding-left: 7px;
-	}
-	.info{
-		margin-right: 0;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.info-text-nomber2-img img{
-		width: 340px;
-	}
-	.info-text-nomber2{
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-	.carta-nomber{
-		width: 100%;
-	}
-	.logo{
-		padding-right: 10px;
-	}
-	.login{
-		padding: 0;
-	}
-	.carta{
-		width: 360px;
-		padding-left: 7px;
-	}
-	.line-info{
-		margin-left: 20px;
-	}
-	.gmail{
-		margin-left: 30px;
-		margin-right: 30px;
-	}
-	.try-for-free{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.text-info-button-img{
-		padding-left: 8px;
-	}
-	.img4{
-		width: 290px;
+		height: 100%;	
 	}
 }
 @media screen and (max-width:360px){
-	.login{
-		padding-left: 0;
+	.carta-nomber-title1{
+		width: 300px;	
 	}
-	.img-marcet{
-		padding-left: 60px;
+	.info-button1 button{
+		padding-left: 80px;	
 	}
-	.info-img img{
-		width: 330px;
+	.info-text input , .info-text textarea{
+		width: 230px;	
+	}
+	.info-text{
+		padding-left: 0;	
+	}
+	.info-button1{
+		width: 260px;	
 	}
 }
